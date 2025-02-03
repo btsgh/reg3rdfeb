@@ -1,0 +1,5 @@
+UPDATE PUBLIC.SEP12 SET
+		NAME = '{{update_form.fieldState.NAME.isVisible ? update_form.formData.NAME : update_form.sourceData.NAME}}',
+		SALARY = '{{update_form.fieldState.SALARY.isVisible ? update_form.formData.SALARY : update_form.sourceData.SALARY}}',
+    POSITION = '{{update_form.fieldState.POSITION.isVisible ? update_form.formData.POSITION : update_form.sourceData.POSITION}}'
+WHERE ID = {{data_table.selectedRow.ID}};

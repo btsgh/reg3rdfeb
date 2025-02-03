@@ -1,0 +1,2 @@
+DELETE FROM PUBLIC.SEP12
+  WHERE ID = {{data_table.triggeredRow.ID}};

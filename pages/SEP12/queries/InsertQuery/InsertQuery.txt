@@ -1,0 +1,10 @@
+INSERT INTO PUBLIC.SEP12 (
+	ID,
+	NAME,
+	SALARY,
+	POSITION)
+VALUES (
+	'{{insert_form.formData.ID}}',
+	'{{insert_form.formData.NAME}}',
+	'{{insert_form.formData.SALARY}}',
+	'{{insert_form.formData.POSITION}}');
